@@ -37,7 +37,6 @@ class ChangeTable extends StatelessWidget {
       return buildCol(const [500, 100, 50, 20, 10, 5, 2, 1]);
     }
 
-    // Landscape: split like the screenshot feel (4 + 4)
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

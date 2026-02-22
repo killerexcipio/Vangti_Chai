@@ -60,7 +60,6 @@ class _HomeScreenState extends State<HomeScreen> {
       );
     }
 
-    // Portrait: header on top, then change list LEFT and keypad RIGHT
     Widget portraitLayout() {
       return Column(
         children: [
@@ -95,7 +94,6 @@ class _HomeScreenState extends State<HomeScreen> {
       );
     }
 
-    // Landscape: header on top, then change (two columns) LEFT and keypad RIGHT
     Widget landscapeLayout() {
       return Column(
         children: [

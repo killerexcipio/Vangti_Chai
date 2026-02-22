@@ -56,11 +56,7 @@ class Keypad extends StatelessWidget {
       );
     }
 
-    // Portrait layout:
-    // 1 2 3
-    // 4 5 6
-    // 7 8 9
-    // 0 CLEAR(2x)
+
     if (!landscape) {
       return Column(
         mainAxisSize: MainAxisSize.min,
@@ -88,10 +84,7 @@ class Keypad extends StatelessWidget {
       );
     }
 
-    // Landscape layout (matches the assignment screenshot vibe):
-    // 1 2 3 4
-    // 5 6 7 8
-    // 9 0 CLEAR(2x)
+
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [

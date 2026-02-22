@@ -7,7 +7,8 @@ class AppSizing {
   static double pagePadding(BuildContext context) =>
       isTablet(context) ? 20 : 12;
 
-  static double gap(BuildContext context) => isTablet(context) ? 14 : 10;
+  static double gap(BuildContext context) => 
+      isTablet(context) ? 14 : 10;
 
   static double headerFontSize(BuildContext context) =>
       isTablet(context) ? 24 : 20;
